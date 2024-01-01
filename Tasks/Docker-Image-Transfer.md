@@ -30,4 +30,4 @@
      docker load < mydockerimage.tar
      ```
    - This command loaded the `news:devops` Docker image from the `mydockerimage.tar` file on App Server 3.
-![image1](./images/apache1.png)
+![image1](./images/dockerimagetransfer1.png)
