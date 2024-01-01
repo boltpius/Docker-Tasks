@@ -4,16 +4,16 @@ The Nautilus application development team has provided static website content th
 
 ### Steps:
 
- 1.⁠ ⁠*I created a Container on App Server 1 in Stratos DC using docker compose*
+ 1.⁠ ⁠*I created a dockercompose file on App Server 1 in Stratos DC*
     
 
-    ⁠ bash
-  sudo vi /opt/docker/docker-compose.yml 
-    docker-compose -f /opt/docker/docker-compose.yml up -d
+    ⁠ bash 
+    sudo vi /opt/docker/docker-compose.yml 
+   
 
    ![image1](./images/dockercompose1.png)  ⁠
 
-    Ensure the ⁠ docker-compose.yml ⁠ file exists in the specified path.
+   
 
  2.⁠ ⁠*I defined Container with HTTPD Image:*
 
